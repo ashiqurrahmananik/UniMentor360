@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  background-color: #000000b8;
+  border-bottom: 1px solid blue;
+  color: white;
+}
+#home-section {
+  background-image: url("/img/2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home-contant {
+  background-color: #000000b8;
+  padding: 150px 0;
+}
+.fas.fa-check.text-primary.bg-white.p-2.mt-2.ml-3.h2 {
+  border-radius: 5px;
+}
