@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand  text-white" href="#">UniMentor360</a>
+            <a class="navbar-brand  text-white" href="index.html">UniMentor360</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,13 +21,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active  text-white " aria-current="page" href="#">Home</a>
+                        <a class="nav-link active  text-white " aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-white " href="#">About Us</a>
+                        <a class="nav-link  text-white " href="index.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white " href="#">Services</a>
+                        <a class="nav-link text-white " href="index.html">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white " href="#">Blog</a>
@@ -51,6 +51,9 @@
                         <li><a class="dropdown-item active" href="#">EWU</a></li>
                         <li><a class="dropdown-item" href="#">NSU</a></li>
                         <li><a class="dropdown-item" href="#">IUB</a></li>
+                        <li><a class="dropdown-item active" href="#">dU</a></li>
+                        <li><a class="dropdown-item" href="#">EU</a></li>
+                        <li><a class="dropdown-item" href="#">WUB</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
@@ -106,33 +109,35 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="offset-md-5 col-md-2 text-center py-5">
+        <div class="row py-5">
+            <div class="offset-md-5 col-md-2 text-center py-5 px-3">
                 <button class="btn btn-primary form-control">Submit</button>
             </div>
         </div>
     </div>
-
-    <div class="footer text-white" style="background-color: black;">
-        <div class="container">
+    <div class="footer text-white" style="background-color: black;position: fixed;
+    bottom: 0;
+    width: 100%;">
+        <div class="container" style="">
             <div class="row py-4">
-                <div class="col-md-4">
+                <div class="col-md-4 text-center">
                     <h1>UniMentor360</h1>
                     <br>Navigating Excellence with </br>
                     Where Insights and </br>
                     Effortlessness Converge</p>
-                    <img src="img/linkedin.png" style="height: 18px;">
-                    <img src="img/facebook-app-symbol.png" style="height: 18px;">
-                    <img src="img/instagram.png" style="height: 18px;">
+                    <a href='https://www.linkedin.com/'><img src="img/linkedin.png" style="height: 18px;"></a>
+                    <a href='https://www.facebook.com/'><img src="img/facebook-app-symbol.png"
+                            style="height: 18px;"></a>
+                    <a href='https://www.instagram.com/'><img src="img/instagram.png" style="height: 18px;"></a>
                 </div>
                 <div class="col-md-4">
                     </br>
                     </br>
                     </br>
-                    <p>Explore</br>
-                        Cookies</br>
-                        About us</br>
-                        Privacy Policy
+
+                    <a href="TearmsCondition.html" class="text-white" style="text-decoration: none;">Cookies</a></br>
+                    <a href="#about-section" class="text-white" style="text-decoration: none;">About us</a></br>
+                    <a href="TearmsCondition.html" class="text-white" style="text-decoration: none;">Privacy Policy</a>
                     </p>
                 </div>
                 <div class="col-md-4">
@@ -140,15 +145,18 @@
                     </br>
                     </br>
                     <p>
-                        Categories</br>
+
                         Blogs</br>
-                        Services</br>
-                        Terms & conditions
+                        <a href="#service-section" class="text-white" style="text-decoration: none;">Services</a></br>
+                        <a href="TearmsCondition.html" class="text-white" style="text-decoration: none;">Terms &
+                            conditions</a>
                     </p>
                 </div>
             </div>
         </div>
     </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
